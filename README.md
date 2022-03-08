@@ -6,4 +6,4 @@
 
 **TA: Nikita Balabin**
 
-Benchmark of the performance of Barlow Twins model using a set of augmentations and metrics.
+Benchmark of the performance of [Barlow Twins](https://github.com/facebookresearch/barlowtwins) model using a set of augmentations and metrics.
