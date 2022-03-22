@@ -14,8 +14,10 @@
 
 ### Models
 **SimCLR.** In a Simple framework for Contrastive Learning of visual Representations (“SimCLR”) two separate data augmentation operators are sampled from the same family of augmentations and applied to each data example to obtain two correlated views.
+
 **Barlow Twins.** The  objective function in “Barlow Twins” measures the cross-correlation matrix between the embeddings of two identical networks fed with distorted versions of a batch of samples, and tries to make this matrix close to the identity.
 
 ### Metrics
 **[Hausdorff distance.](https://doi.org/10.1109/tpami.2015.2408351)** The Hausdorff distance (HD) between two point sets is a commonly used dissimilarity measure for comparing point sets and image segmentations. 
+
 **[MTopDiv.](https://doi.org/10.48550/arXiv.2106.04024)** Manifold Topology Divergence is a framework for comparing data manifolds, aimed, in particular, towards the evaluation of deep generative models. 
