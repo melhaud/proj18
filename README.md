@@ -1,5 +1,4 @@
 # Anomaly detection using self-supervised point clouds
- ---
 
 * Agafonova Ekaterina (<ekaterina.agafonova@skoltech.ru>)
 * Volkov Dmitry (<dmitry.volkov@skoltech.ru>)
@@ -9,7 +8,6 @@
 TA: Nikita Balabin
 
 ## Description
----
 
 ### Powered by
 1. [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
