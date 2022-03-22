@@ -52,6 +52,6 @@ The requred packages can be installed from ``requirements.txt``:
 **Note** that Ripser++, which is an MTopDiv requirement, will install and work on GPU only.
 
  ## Results
- The Euclidean distance for embeddings extracted from SimCLR linear layer.
+ Our approach showed plausible results for the CIFAR10 dataset. However, it fails to distinguish `cat` class from the `dog` one. The Euclidean distance for embeddings extracted from SimCLR linear layer.
  ![eucl_simclr_emb_similarity](https://github.com/melhaud/proj18/blob/f8f4b09d482836af6d49fdd4a8b40aa1187c6871/images/hist_cdist.png)
 
