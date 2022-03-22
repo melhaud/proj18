@@ -52,10 +52,12 @@ Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
 =======
 
 ## Description
-The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared Hausdorff and MTopDiv metrics using embeddings from linear layer of BarlowTwins and SimCLR models.
+
+The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared the performance of  Hausdorff and MTopDiv metrics on CIFAR10 dataset using embeddings extracted from linear layer of BarlowTwins and SimCLR models. To extract the embeddings, we used a single-class learning strategy. We claim that the metrics have failed to distinguish embeddings of the augmented classes due to low robustness to non-rigid augmentations.
 
 ## Augmentations
-We use set of augmentation suggested by the authors of lightly for training of the model and implemented in their ImageCollateFunction (we use default parameters and input size of the CIFAR10 images - 32, the full list of augmentation can be found in lightly documentation)
+
+We use set of augmentation suggested by the authors of lightly for training of the model and implemented in their ImageCollateFunction (we use default parameters and input size of the CIFAR10 images - 32, the full list of augmentation can be found in lightly documentation).
 
 ## Models
 **SimCLR.** In a Simple framework for Contrastive Learning of visual Representations (“SimCLR”) two separate data augmentation operators are sampled from the same family of augmentations and applied to each data example to obtain two correlated views.
@@ -82,5 +84,9 @@ The requred packages can be installed from ``requirements.txt``:
 
         pip install -r requirements.txt
 
+<<<<<<< HEAD
 Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
 >>>>>>> ecf2b8e9edc151ef23553be5777ee957727d72ce
+=======
+**Note** that Ripser++, which is an MTopDiv requirement, will install and work on GPU only.
+>>>>>>> 81433371797bd28f47159efbb753f0255e6548b5
