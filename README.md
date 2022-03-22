@@ -1,6 +1,5 @@
 # Anomaly detection using self-supervised point clouds
- <hr />
-## Final project for 2022 Machine learning course at Skoltech
+ ---
 
 * Agafonova Ekaterina (<ekaterina.agafonova@skoltech.ru>)
 * Volkov Dmitry (<dmitry.volkov@skoltech.ru>)
