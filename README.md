@@ -57,6 +57,7 @@ For the baseline, we propose to use a combination of SimCLR/Euclidean distance. 
 
 
 ## Structure of project
+```
 .
 ├── embeddings                          # precomputed embeddings in .csv
 │   ├── BarlowTwins               
@@ -81,3 +82,4 @@ For the baseline, we propose to use a combination of SimCLR/Euclidean distance. 
 ├── requirements.txt                    # necessary packages
 │
 └── README.md
+```
