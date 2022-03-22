@@ -14,10 +14,12 @@ TA: Nikita Balabin
 4. [Lightly](https://github.com/lightly-ai/lightly)
 
 ## Description
-The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared Hausdorff and MTopDiv metrics using embeddings from linear layer of BarlowTwins and SimCLR models.
+
+The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared the performance of  Hausdorff and MTopDiv metrics on CIFAR10 dataset using embeddings extracted from linear layer of BarlowTwins and SimCLR models. To extract the embeddings, we used a single-class learning strategy. We claim that the metrics have failed to distinguish embeddings of the augmented classes due to low robustness to non-rigid augmentations.
 
 ## Augmentations
-We use set of augmentation suggested by the authors of lightly for training of the model and implemented in their ImageCollateFunction (we use default parameters and input size of the CIFAR10 images - 32, the full list of augmentation can be found in lightly documentation)
+
+We use set of augmentation suggested by the authors of lightly for training of the model and implemented in their ImageCollateFunction (we use default parameters and input size of the CIFAR10 images - 32, the full list of augmentation can be found in lightly documentation).
 
 ## Models
 **SimCLR.** In a Simple framework for Contrastive Learning of visual Representations (“SimCLR”) two separate data augmentation operators are sampled from the same family of augmentations and applied to each data example to obtain two correlated views.
