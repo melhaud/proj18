@@ -7,7 +7,7 @@
 * Dembitskiy Artem (<artem.dembitsky@skoltech.ru>)
 
 **TA: Nikita Balabin**
- <hr />
+---
 ## Description
 ### Powered by
 1. [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
