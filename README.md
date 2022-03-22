@@ -12,7 +12,6 @@ TA: Nikita Balabin
 2. [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)
 3. [Manifold Topology Divergence: a Framework for Comparing Data Manifolds](https://arxiv.org/pdf/2106.04024.pdf)
 4. [Lightly](https://github.com/lightly-ai/lightly)
-<<<<<<< HEAD
 
 ## Description
 
