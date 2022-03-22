@@ -16,7 +16,7 @@ TA: Nikita Balabin
 
 ## Description
 
-The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared the performance of  Hausdorff and MTopDiv metrics on CIFAR10 dataset using embeddings extracted from linear layer of BarlowTwins and SimCLR models. To extract the embeddings, we used a single-class learning strategy. We claim that the metrics have failed to distinguish embeddings of the augmented classes due to low robustness to non-rigid augmentations.
+The work explores the problem of point clouds similarity estimation in an SSL framework. We have compared the performance of  Hausdorff and MTopDiv metrics on CIFAR10 dataset using embeddings extracted from linear layer of BarlowTwins and SimCLR models (implemented in Lightly). To extract the embeddings, we used a single-class learning strategy. We claim that the metrics have failed to distinguish embeddings of the augmented classes due to low robustness to non-rigid augmentations.
 
 ## Augmentations
 
