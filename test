@@ -1,8 +1,0 @@
-torch==1.10.2
-numpy
-matplotlib
-torchvision
-lightly
-pytorch_lightning
-ripserplusplus
-IPython

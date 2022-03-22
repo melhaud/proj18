@@ -36,6 +36,8 @@ We have picked and evaluated metrics using several criteria:
 
 **[MTopDiv.](https://doi.org/10.48550/arXiv.2106.04024)** Manifold Topology Divergence is a framework for comparing data manifolds, aimed, in particular, towards the evaluation of deep generative models. 
 
+**[Euclidean distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cdist.html)**. Computes the point-to-point distance  for a cloud using Euclidean distance (2-norm) as the distance metric between the points.
+
 ## Environment Requirements
 
 All the tests were performed using Google Colab GPU's Tesla P100.
