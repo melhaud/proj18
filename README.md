@@ -6,9 +6,11 @@
 * Sidnov Kirill (<kirill.sidnov@skoltech.ru>)
 * Dembitskiy Artem (<artem.dembitsky@skoltech.ru>)
 
-**TA: Nikita Balabin**
----
+TA: Nikita Balabin
+
 ## Description
+---
+
 ### Powered by
 1. [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 2. [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)
@@ -24,3 +26,11 @@
 **[Hausdorff distance.](https://doi.org/10.1109/tpami.2015.2408351)** The Hausdorff distance (HD) between two point sets is a commonly used dissimilarity measure for comparing point sets and image segmentations. 
 
 **[MTopDiv.](https://doi.org/10.48550/arXiv.2106.04024)** Manifold Topology Divergence is a framework for comparing data manifolds, aimed, in particular, towards the evaluation of deep generative models. 
+
+### Environment Requirements
+All the tests were performed using Google Colab GPU's Tesla P100.
+
+### Dependencies
+The requred packages can be installed from ``requirements.txt``:
+`` pip install -r requirements.txt``
+Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
