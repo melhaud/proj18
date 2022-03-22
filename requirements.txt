@@ -4,5 +4,4 @@ matplotlib
 torchvision
 lightly
 pytorch_lightning
-ripserplusplus
 IPython

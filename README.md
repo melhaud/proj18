@@ -55,3 +55,29 @@ The requred packages can be installed from ``requirements.txt``:
 For the baseline, we propose to use a combination of SimCLR/Euclidean distance. The plot below demonstrates plausible results for the embeddings extracted from backbone linear layer trained on a single `dog` class from CIFAR10. However, it fails to distinguish `cat` class from the `dog` one.
  ![eucl_simclr_emb_similarity](https://github.com/melhaud/proj18/blob/f8f4b09d482836af6d49fdd4a8b40aa1187c6871/images/hist_cdist.png)
 
+
+## Structure of project
+.
+├── embeddings                          # precomputed embeddings in .csv
+│   ├── BarlowTwins               
+│   │   ├──train                  
+│   │   └── ...
+│   └── SimCLR
+│       ├──train
+│       └──test
+│       
+├── examples
+│   ├── DistributionPlotting.ipynb      # measure 2 metrics with bootstrap
+│   ├── BarlowTwinsEmbeddings.ipynb     # train and make embeddings via BarlowTwins 
+│   └── SimClrEmbeddings.ipynb          # train and make embeddings via SimCLR 
+│
+├── src                                 # utils .py files and models architectures
+│   └── ...
+│
+├── weights                             # precomputed NN weights
+│   ├── weights_barlow_twins
+│   └── weights_simclr
+│
+├── requirements.txt                    # necessary packages
+│
+└── README.md
