@@ -31,11 +31,11 @@ We have picked and evaluated metrics using several criteria:
 **[MTopDiv.](https://doi.org/10.48550/arXiv.2106.04024)** Manifold Topology Divergence is a framework for comparing data manifolds, aimed, in particular, towards the evaluation of deep generative models. 
 
 ## Environment Requirements
- <hr style="border:1px solid gray"> </hr>
+
 All the tests were performed using Google Colab GPU's Tesla P100.
 
 ## Dependencies
- <hr style="border:1px solid gray"> </hr>
+
 The requred packages can be installed from ``requirements.txt``:
 
         pip install -r requirements.txt
