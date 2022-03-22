@@ -1,11 +1,15 @@
 # Anomaly detection using self-supervised point clouds
-
+ <hr />
 ## Final project for 2022 Machine learning course at Skoltech
 
-**Agafonova Ekaterina, Volkov Dmitry, Sidnov Kirill, Dembitskiy Artem**
+* Agafonova Ekaterina (<ekaterina.agafonova@skoltech.ru>)
+* Volkov Dmitry (<dmitry.volkov@skoltech.ru>)
+* Sidnov Kirill (<kirill.sidnov@skoltech.ru>)
+* Dembitskiy Artem (<artem.dembitsky@skoltech.ru>)
 
 **TA: Nikita Balabin**
-
+ <hr />
+## Description
 ### Powered by
 1. [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 2. [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)
