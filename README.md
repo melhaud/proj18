@@ -31,6 +31,6 @@ All the tests were performed using Google Colab GPU's Tesla P100.
 ### Dependencies
 The requred packages can be installed from ``requirements.txt``:
 
-`` pip install -r requirements.txt``
+        `` pip install -r requirements.txt``
 
 Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
