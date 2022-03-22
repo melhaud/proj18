@@ -12,7 +12,6 @@ TA: Nikita Balabin
 2. [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)
 3. [Manifold Topology Divergence: a Framework for Comparing Data Manifolds](https://arxiv.org/pdf/2106.04024.pdf)
 4. [Lightly](https://github.com/lightly-ai/lightly)
-<<<<<<< HEAD
 
 ## Description
 
@@ -49,7 +48,6 @@ The requred packages can be installed from ``requirements.txt``:
 
 Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
 
-=======
 
 ## Description
 
@@ -84,9 +82,5 @@ The requred packages can be installed from ``requirements.txt``:
 
         pip install -r requirements.txt
 
-<<<<<<< HEAD
-Note that Ripser++, which is an MTopDiv requirement, will work on GPU only.
->>>>>>> ecf2b8e9edc151ef23553be5777ee957727d72ce
-=======
+
 **Note** that Ripser++, which is an MTopDiv requirement, will install and work on GPU only.
->>>>>>> 81433371797bd28f47159efbb753f0255e6548b5
