@@ -14,7 +14,7 @@ def get_classes(dataset) -> dict:
     return classes
 
 
-def generate_embeddings(model, dataloader):
+def generate_embeddings(model, dataloader, device):
     """
     Generates representations for all images in the dataloader with
     the given model
@@ -22,7 +22,7 @@ def generate_embeddings(model, dataloader):
     embeddings, filenames = [], []
     with torch.no_grad():
         for img, label, fnames in dataloader:
-            img = img[0].to(model.device)
+            img = img[0].to(device)
             emb = model.backbone(img).flatten(start_dim=1)
             embeddings.append(emb)
             filenames.extend(fnames)

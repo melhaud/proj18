@@ -18,7 +18,3 @@ class BarlowTwins(nn.Module):
         # embedding from projection head
         self.proj_embedding = z
         return z
-
-resnet = resnet20(num_classes=1) #ResNet20
-backbone = nn.Sequential(*list(resnet.children())[:-1])
-model = BarlowTwins(backbone)
